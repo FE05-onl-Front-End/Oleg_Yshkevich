@@ -1,0 +1,38 @@
+/* footer */
+.footer{
+    background-color: #313454;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__text{
+    font-family: Raleway;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #808080;
+    margin-bottom: 30px;
+    max-width: 312px;
+    text-align: center;
+}
+
+.by{
+    color: #ffffff;
+}
+
+.fa-heart{
+    color: #e84545;
+}
+
+.social__icon:hover{
+    background-color: rgba(41, 48, 112, 0.8);
+    border: none;
+}
+
+@media (max-width: 600px){
+    .contacts-del{
+        display: none;
+    }
+}
