@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"> 
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="header_title">
+                PAINT
+            </h1>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <form class="form">
+                <select class="select-figure" name="select-figure" id="select-figure" onchange="showFigure()">
+                    <option value=""></option>
+                    <option value="circle">Круг</option>
+                    <option value="sqr">Квадрат</option>
+                    <option value="rectangle">Прямоугольник</option>
+                    <!-- <option value="triangle">Треугольник</option> -->
+                </select>
+            </form>
+            <div class = "canvas">
+                <div class = "figure circle" id="circle"></div>
+                <div class = "figure sqr" id="sqr" ></div>
+                <div class = "figure rectangle" id="rectangle"></div>
+            </div>
+
+            <div class = "color">
+                <h3 class = "color-text">
+                    Необходимо выбрать цвет, который душе угоден:                  
+                </h3>
+                <div class="color-selection-block" id="color-selection-block">
+
+                </div>
+                <p><input type="button" value=" Обнулить цвет, как дед свой срок на востоке " onclick=resetColor()></p>
+            </div>
+            
+        </div>
+
+
+
+               
+                
+            
+    </main>
+    <script src="./script.js"></script>
+</body>
+
+</html>
+
+
+<!-- <div class="palette" id="palette"> -->
+
+                <!-- </div> -->
+                <!-- <button type="button" id="btn" class="btn" onclick="resetColor()">
+                    Сбросить цвет
+                </button> -->

@@ -1,0 +1,96 @@
+* {
+    font-family: sans-serif;
+}
+
+.modal {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .3);
+    cursor: pointer;
+}
+
+.wrapper {
+    display: none;
+}
+
+.incorrect {
+    color: red;
+    display: none;
+}
+
+.popap {
+    position: absolute;
+    border: 1px solid rgba(0, 0, 0, .5);
+    width: 300px;
+    background: #fff;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    cursor: default;
+    border-radius: 3px;
+    transform: translateY(-50%);
+
+}
+
+.popap-head {
+    position: relative;
+    height: 25px;
+}
+
+.popap-head .close {
+    position: absolute;
+    height: 20px;
+    padding: 0 2px;
+    right: 10px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.popap-head .close:hover {
+    border-color: #333;
+}
+
+.popap-main {
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.popap-form {
+    margin-bottom: 20px;
+}
+
+.popap-main label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.popap-main label span {
+    font: 12px sans-serif;
+}
+
+.popap-main label input {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.popap-btn {
+    text-align: right;
+}
+
+.btn {
+    display: inline-block;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    border-color: #333;
+}
